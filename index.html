@@ -1,192 +1,191 @@
 <!DOCTYPE html>
-<html lang="en" >
-    <head>
-        <meta charset="UTF-8">
-        <title>Oasis</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+<html lang="en">
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <header class="header">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
             <div class="header-text">
                 <h1><span class="header-text-primary">Oasis</span> a repository of project ideas</h1>
                 <h4><span class="question">Got an amazing project idea you can’t work on?</span></h4>
-                <h4> Share it on Oasis!</h4>
-                <div style="padding-bottom:10px;"></div>
+                <h4>Share it on Oasis!</h4>
                 <h4><span class="question">Looking for a project idea to work on?</span> </h4>
-                <h4> Find it on Oasis!</h4>
-                
-                <a href="https://forms.gle/E65iTs8TqxeyR1hJ9"><button class="header-link">Join the waitlist</button></a>
+                <h4>Find it on Oasis!</h4>
+                <a href="https://forms.gle/E65iTs8TqxeyR1hJ9" class="header-link">Join the waitlist</a>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <section class="faq-section">
-            <div class="container">
-                <div class="row">
-                    <!-- ***** FAQ Start ***** -->
-                    <div class="col-md-12">
-                        <div class="faq-title text-center pb-3">
-                            <h2>FAQ</h2>
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <!-- ***** FAQ Start ***** -->
+                <div class="col-md-12 text-center mb-4">
+                    <h2>FAQ</h2>
+                </div>
+                <div class="col-md-12">
+                    <div class="faq" id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-1">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                        <span class="badge">1</span>What is Oasis?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Oasis is an online platform where people with spare project ideas can share them with the world, so that other people (who are looking for project ideas) can pick them up and work on them. </p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="faq" id="accordion">
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-1">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                            <span class="badge">1</span>What is Oasis?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>Oasis is an online platform where people with spare project ideas can share them with the world, so that other people (who are looking for project ideas) can pick them up and work on them. </p>
-                                    </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-2">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                        <span class="badge">2</span> What is a project idea?
+                                    </h5>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-2">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                            <span class="badge">2</span> What is a project idea?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>A project idea is an initial concept or proposal that outlines the framework for a potential project. It is typically specific, detailed and actionable. Importantly, it’s just a good starting point for thinking; there’s always scope for fine-tuning. </p>
+                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>A project idea is an initial concept or proposal that outlines the framework for a potential project. It is typically specific, detailed and actionable. Importantly, it’s just a good starting point for thinking; there’s always scope for fine-tuning. </p>
 
-                                        <p>For example, “help improve knowledge retention” wouldn’t really count as a project idea, but “create a software that periodically generates summaries of the content you saved on Instagram to help you retain more content” likely would. Of course, even the latter would benefit from a more detailed description.</p>
-                                    </div>
+                                    <p>For example, “help improve knowledge retention” wouldn’t really count as a project idea, but “create a software that periodically generates summaries of the content you saved on Instagram to help you retain more content” likely would. Of course, even the latter would benefit from a more detailed description.</p>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-3">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                            <span class="badge">3</span>What kind of project ideas do you accept?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>All kinds! We welcome project ideas about research, businesses, non-profit organisations, software products, chrome extensions, video games, physical products, and more. When you submit an idea, you’ll get the option to select which areas it belongs to.</p>
-                                    </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                        <span class="badge">3</span>What kind of project ideas do you accept?
+                                    </h5>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-4">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                            <span class="badge">4</span> Why should you contribute your project ideas?
-                                        </h5>
-                                    </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>All kinds! We welcome project ideas about research, businesses, non-profit organisations, software products, chrome extensions, video games, physical products, and more. When you submit an idea, you’ll get the option to select which areas it belongs to.</p>
                                 </div>
-                                <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>By sharing your idea on Oasis, you increase the chance that it will actually be brought to life. This leads to a multitude of benefits, both personal and societal: </p>
-                                        <ul>
-                                            <li><b>Direct personal benefit:</b> The executed idea may specifically address issues that you face in your own life. This is especially true for product ideas, where you yourself could be a potential customer, and for research ideas, where you might be curious about the answer to the research question.</li>
-                                            <li><b>Emotional fulfillment:</b> You may not realise it, but seeing a concept of yours become reality is incredibly emotionally fulfilling.</li>
-                                            <li><b>Intellectual Stimulation:</b> Oasis is a hub for creative minds. Posting your idea opens the door to engaging discussions, allowing you to delve deeper into its strengths and weaknesses. For many, this intellectual discourse is a reward in itself.</li>
-                                            <li><b>Contribute to societal progress:</b> Your ideas are great starting points for projects that benefit humanity. Your contributions enrich the collective pool of ideas that can be used to solve real-world problems.</li>
-                                        </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                        <span class="badge">4</span> Why should you contribute your project ideas?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>By sharing your idea on Oasis, you increase the chance that it will actually be brought to life. This leads to a multitude of benefits, both personal and societal: </p>
+                                    <ul>
+                                        <li><b>Direct personal benefit:</b> The executed idea may specifically address issues that you face in your own life. This is especially true for product ideas, where you yourself could be a potential customer, and for research ideas, where you might be curious about the answer to the research question.</li>
+                                        <li><b>Emotional fulfillment:</b> You may not realise it, but seeing a concept of yours become reality is incredibly emotionally fulfilling.</li>
+                                        <li><b>Intellectual Stimulation:</b> Oasis is a hub for creative minds. Posting your idea opens the door to engaging discussions, allowing you to delve deeper into its strengths and weaknesses. For many, this intellectual discourse is a reward in itself.</li>
+                                        <li><b>Contribute to societal progress:</b> Your ideas are great starting points for projects that benefit humanity. Your contributions enrich the collective pool of ideas that can be used to solve real-world problems.</li>
+                                    </ul>
 
-                                    </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-5">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                            <span class="badge">5</span> Why should you look for project ideas on Oasis?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>Oasis is the optimal platform for discovering project ideas for several reasons:</p>
-                                        <ul>
-                                            <li><b>Focused Content:</b> We focus solely on project ideas, eliminating the need for you to wade through all the irrelevant content that one often encounters on more generalized social media platforms.</li>
-                                            <li><b>Dynamic Idea Pool:</b> Unlike static blogs that offer a limited set of ideas, Oasis is a constantly evolving platform. You'll find a continuous influx of fresh, innovative concepts to choose from.</li>
-                                            <li><b>Precision Matching:</b> Through our filtering systems, you can choose to only see ideas that cater to your specific interests and capabilities.</li>
-                                            <li><b>Quickly Sense Engagement:</b> Not only do you quickly find ideas on Oasis, you also quickly find out how interested the community is in that idea and what their main concerns (if any) are. If you got an idea from Oasis, you’re already a step ahead in determining the feasibility of the idea.</li>
-                                        </ul>
-                                        <p>Find your next great idea on Oasis.</p>
-                                    </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+                                        <span class="badge">5</span> Why should you look for project ideas on Oasis?
+                                    </h5>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-6">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                            <span class="badge">6</span> How much do you charge?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>Nothing! It’s all free. Our aim is to facilitate the sharing and discovery of project ideas without financial barriers.</p>
-                                        <p>While we do have plans for generating revenue in the future, they don't involve putting ideas behind a paywall, as that contradicts the very essence of our platform.</p>
-                                    </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Oasis is the optimal platform for discovering project ideas for several reasons:</p>
+                                    <ul>
+                                        <li><b>Focused Content:</b> We focus solely on project ideas, eliminating the need for you to wade through all the irrelevant content that one often encounters on more generalized social media platforms.</li>
+                                        <li><b>Dynamic Idea Pool:</b> Unlike static blogs that offer a limited set of ideas, Oasis is a constantly evolving platform. You'll find a continuous influx of fresh, innovative concepts to choose from.</li>
+                                        <li><b>Precision Matching:</b> Through our filtering systems, you can choose to only see ideas that cater to your specific interests and capabilities.</li>
+                                        <li><b>Quickly Sense Engagement:</b> Not only do you quickly find ideas on Oasis, you also quickly find out how interested the community is in that idea and what their main concerns (if any) are. If you got an idea from Oasis, you’re already a step ahead in determining the feasibility of the idea.</li>
+                                    </ul>
+                                    <p>Find your next great idea on Oasis.</p>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-7">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
-                                            <span class="badge">7</span> When does Oasis go live?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>By December 2023!</p>
-                                    </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-6">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
+                                        <span class="badge">6</span> How much do you charge?
+                                    </h5>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-8">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-8" data-aria-expanded="false" data-aria-controls="faqCollapse-8">
-                                            <span class="badge">8</span> Who’s behind the scenes? Why are we doing this?
-                                        </h5>
-                                    </div>
+                            <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Nothing! It’s all free. Our aim is to facilitate the sharing and discovery of project ideas without financial barriers.</p>
+                                    <p>While we do have plans for generating revenue in the future, they don't involve putting ideas behind a paywall, as that contradicts the very essence of our platform.</p>
                                 </div>
-                                <div id="faqCollapse-8" class="collapse" aria-labelledby="faqHeading-8" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>We’re a small group of students at Cornell University. We often find ourselves coming up with interesting project ideas, but we have way too many of them to pursue on our own. We’re building this platform to help people like us share such ideas so others can pick them up and the ideas can actually get executed.</p>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+                                        <span class="badge">7</span> When does Oasis go live?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>By December 2023!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-8">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-8" data-aria-expanded="false" data-aria-controls="faqCollapse-8">
+                                        <span class="badge">8</span> Who’s behind the scenes? Why are we doing this?
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-8" class="collapse" aria-labelledby="faqHeading-8" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>We’re a small group of students at Cornell University. We often find ourselves coming up with interesting project ideas, but we have way too many of them to pursue on our own. We’re building this platform to help people like us share such ideas so others can pick them up and the ideas can actually get executed.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        
-        
-        <section class="reachout">
-            
-            
-        <h1> Questions? Suggestions? Feedback? </h1>
-        <p>Write to us at oasis.repository@gmail.com. We love hearing from our users. Your questions/suggestions/inputs (even the dumb ones) help us better understand our target demographic and improve our product. We’re also happy to schedule 1-on-1 chats with you, if you prefer to talk.</p>    
-        
-            
-        
-        <h1>Want help us build this out?</h1>
-        <p> Write to us at oasis.repository@gmail.com. We’re looking to expand our team and are excited to hear how you might help us turn Oasis from a concept to a reality. In particular, we’re looking for web developers (front-end and back-end), product managers, and social media strategists. </p>
-        </section>
-        
-        
-        
-        <!-- partial -->
-        <script src='https://code.jquery.com/jquery-2.1.0.js'></script>
-        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
-    </body>
+    </section>
+
+    <section class="reachout">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Questions? Suggestions? Feedback?</h1>
+                    <p>Write to us at oasis.repository@gmail.com. We love hearing from our users. Your questions/suggestions/inputs (even the dumb ones) help us better understand our target demographic and improve our product. We’re also happy to schedule 1-on-1 chats with you, if you prefer to talk.</p>
+
+                    <h1>Want to help us build this out?</h1>
+                    <p>Write to us at oasis.repository@gmail.com. We’re looking to expand our team and are excited to hear how you might help us turn Oasis from a concept to a reality. In particular, we’re looking for web developers (front-end and back-end), product managers, and social media strategists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+</body>
+
 </html>

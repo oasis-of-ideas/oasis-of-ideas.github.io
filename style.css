@@ -197,11 +197,6 @@ button {
     margin-bottom: 20px;
 }
 
-.iframe {
-    display: block;
-    margin: 0 50px 0 50px;
-}
-
 @media (max-width: 991px) {
   .faq {
     margin-bottom: 30px;
@@ -210,4 +205,36 @@ button {
     line-height: 26px;
     margin-top: 10px;
   }
+}
+
+/* style.css */
+
+/* Add your existing styles here */
+
+/* Media query for phones */
+@media (max-width: 767px) {
+  body {
+      font-size: 16px; /* Adjust the base font size for phones */
+  }
+
+  .faq .card {
+      border-radius: 0; /* Remove border-radius for rectangular shape */
+      margin-bottom: 10px; /* Add some space between FAQ boxes on phones */
+      border: 1px solid #007bff; /* Add border to FAQ boxes for clarity */
+      box-shadow: none; /* Remove box shadow for a cleaner look */
+  }
+
+  .header-text h1 {
+      font-size: 24px; /* Adjust the header font size for phones */
+  }
+}
+
+.header-link {
+  color: white; /* Set text color to white */
+  background-color: #007bff; /* Set background color to blue */
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
 }
